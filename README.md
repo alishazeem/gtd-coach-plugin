@@ -1,29 +1,31 @@
 # GTD Coach - Claude Code Plugin
 
+[English](README.md) | [中文](README_CN.md)
+
 Personal GTD (Getting Things Done) coach that transforms annual goals into actionable daily tasks with automatic progress tracking.
 
 ## Features
 
-- 🎯 **Goal → SOP Framework**: Convert high-level goals into structured plans with quarterly milestones
-- 📅 **Daily Task Generation**: Prioritized task lists based on your timeline position
-- 🔨 **Step-by-Step Guidance**: Break down each task into specific actionable steps
-- 🧠 **Automatic Memory**: Progress persists across conversations - no need to repeat context
-- 📊 **Review System**: Daily, weekly, monthly, and quarterly review templates
-- 🔄 **Adaptive Planning**: Adjusts recommendations based on actual progress
-- 🌍 **Multi-language**: Supports English, 中文, 日本語
+- **Goal → SOP Framework**: Convert high-level goals into structured plans with quarterly milestones
+- **Daily Task Generation**: Prioritized task lists based on your timeline position
+- **Step-by-Step Guidance**: Break down each task into specific actionable steps
+- **Automatic Memory**: Progress persists across conversations - no need to repeat context
+- **Review System**: Daily, weekly, monthly, and quarterly review templates
+- **Adaptive Planning**: Adjusts recommendations based on actual progress
+- **Multi-language**: Supports English, 中文, 日本語
 
 ## Installation
 
 ### Via Claude Code CLI
 
 ```bash
-/plugin marketplace add github:YOUR_USERNAME/gtd-coach-plugin
+/plugin marketplace add github:iamzifei/gtd-coach-plugin
 ```
 
 ### Manual Installation
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/gtd-coach-plugin.git
+git clone https://github.com/iamzifei/gtd-coach-plugin.git
 cd gtd-coach-plugin
 claude plugin install .
 ```
@@ -117,6 +119,7 @@ gtd-coach-plugin/
 │       ├── TEMPLATES.md     # Reusable templates
 │       └── EXAMPLES.md      # Example conversations
 ├── README.md
+├── README_CN.md
 └── LICENSE
 ```
 
@@ -127,7 +130,7 @@ gtd-coach-plugin/
 ```
 User: I want to grow my freelance income to $20K/month in 18 months
 
-Claude: ## 📋 Your Goal Framework
+Claude: ## Your Goal Framework
 
 ### Goal Statement
 **Grow freelance income from $X to $20K/month within 18 months**
@@ -140,9 +143,9 @@ Claude: ## 📋 Your Goal Framework
 | Q3 | Systematize | $15K with systems |
 | Q4-Q6 | Achieve | $20K target |
 
-✅ Saved to memory!
+Saved to memory!
 
-## 📅 Today's Tasks
+## Today's Tasks
 ...
 ```
 
@@ -151,13 +154,13 @@ Claude: ## 📋 Your Goal Framework
 ```
 User: What's today's task?
 
-Claude: ## 👋 Welcome back!
+Claude: ## Welcome back!
 
 **Goal**: Freelance → $20K/month
 **Progress**: 35% | **Phase**: Q2-Scale
 **Last session**: 2 days ago
 
-📅 **Today's Tasks**
+**Today's Tasks**
 ...
 ```
 
@@ -171,7 +174,7 @@ MIT License - feel free to use, modify, and distribute.
 
 ## Author
 
-Created by [Your Name]
+Created by [James](https://x.com/JamesAI)
 
 ---
 
